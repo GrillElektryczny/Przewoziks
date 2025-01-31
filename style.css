@@ -1,13 +1,58 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Jasnoszary kolor tła */
+    color: #333; /* Ciemny kolor tekstu */
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.svg'); /* Ustawienie tła */
+    background-size: cover; /* Pokrywa całe tło */
+    background-repeat: no-repeat; /* Nie powtarza tła */
 }
 
-h1, h2 {
-    color: #003366; /* Kolor zgodny z WCAG */
+.header {
+    background-color: rgba(40, 167, 69, 0.8); /* Zielony kolor nagłówka z przezroczystością */
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
+.navbar {
+    background-color: rgba(0, 123, 255, 0.8); /* Niebieski kolor menu z przezroczystością */
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Ciemny kolor stopki z przezroczystością */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.vector-image {
+    width: 350px; /* Ustaw szerokość na 150px */
+    height: auto; /* Utrzymuje proporcje zdjęcia */
+    display: block; /* Umożliwia centrowanie */
+    margin: 20px auto; /* Centruje obrazek w kontenerze */
 }
