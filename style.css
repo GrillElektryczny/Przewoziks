@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #003366; /* Kolor zgodny z WCAG */
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
